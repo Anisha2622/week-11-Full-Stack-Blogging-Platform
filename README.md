@@ -16,3 +16,22 @@ This is a full stack blogging platform built using the MERN stack (MongoDB, Expr
 - API Communication: Axios
 
 ## Project Structure
+
+## API Endpoints
+
+### Authentication
+- POST /api/auth/login
+
+### Blog
+- POST /api/blog
+- GET /api/blog
+
+## Functionality Explanation
+The frontend sends HTTP requests to the backend using Axios. The backend processes requests and returns responses. MongoDB is used for database connectivity.
+
+## Testing
+- API tested using Postman
+- Frontend tested through browser interactions
+
+## Conclusion
+This project demonstrates the fundamentals of full stack development, including API communication, authentication basics, and CRUD operations.
